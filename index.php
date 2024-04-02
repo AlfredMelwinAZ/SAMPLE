@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-<body>
- 
 <?php
-echo "My first PHP script!";
-?>
+// Get PHP version
+echo "PHP Version: " . phpversion();
 
-</body>
-</html>
+// Get server software (e.g., Apache, Nginx)
+echo "Server Software: " . $_SERVER['SERVER_SOFTWARE'];
+?>
